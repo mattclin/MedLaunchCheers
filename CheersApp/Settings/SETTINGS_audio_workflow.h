@@ -1,7 +1,7 @@
 #pragma once
-#include "sdk_util.h"
-#include "stdafx.h"
-#include "setting_service_interface.h"
+#include "../sdk_util.h"
+#include "../stdafx.h"
+#include "../../zoom-sdk-windows-master/h/setting_service_interface.h"
 class CSDKAudioSettingsUIEvent
 {
 public:

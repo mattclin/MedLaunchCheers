@@ -1,4 +1,4 @@
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "SETTINGS_audio_workflow.h"
 CSDKAudioSettingsWorkFlow::CSDKAudioSettingsWorkFlow()
 {
