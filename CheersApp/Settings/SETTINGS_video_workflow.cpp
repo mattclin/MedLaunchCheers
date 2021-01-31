@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "SETTINGS_video_workflow.h"
 CSDKVideoSettingsWorkFlow::CSDKVideoSettingsWorkFlow()
 {

@@ -1,8 +1,9 @@
 #pragma once
-#include "sdk_util.h"
-#include "resource.h"
-#include "UIlib.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_util.h"
+#include "../Resource.h" //originally lowercase in code
+#include "../duilib/include/UIlib.h" //new directory made in CheersApp/
+#include "../sdk_demo_app_common.h"
+
 #include "SETTINGS_general_workflow.h"
 #include "SETTINGS_audio_workflow.h"
 #include "SETTINGS_video_workflow.h"
@@ -11,10 +12,11 @@
 #include "SETTINGS_feature_custom_workflow.h"
 #include "SETTINGS_virtualBG_workflow.h"
 #ifdef _ONE_CLICK_TEST_
-#include "setting_api_test.h"
+#include "../Debugging/setting_api_test.h"
 #endif
 #include <shellapi.h>
-#include "Shlobj.h"
+#include "Shlobj.h" //Couldn't find this file
+					//TODO: Find what Shlobj.h is
 
 enum settingsAudioTestingType
 {

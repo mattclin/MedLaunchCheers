@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "SETTINGS_general_workflow.h"
 CSDKGeneralSettingsWorkFlow::CSDKGeneralSettingsWorkFlow()
 {

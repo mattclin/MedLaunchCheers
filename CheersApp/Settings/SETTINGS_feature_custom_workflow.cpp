@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.hstdafx.h"
 #include "SETTINGS_feature_custom_workflow.h"
 CSDKFeatureCustomSettingsWorkFlow::CSDKFeatureCustomSettingsWorkFlow()
 {

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "SETTINGS_recording_workflow.h"
 CSDKRecordingSettingsWorkFlow::CSDKRecordingSettingsWorkFlow()
 {
