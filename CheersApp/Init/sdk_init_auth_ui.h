@@ -1,9 +1,9 @@
 #pragma once
-#include "sdk_util.h"
-#include "UIlib.h"
+#include "../sdk_util.h"
+#include "../../zoom-sdk-windows-master/demo/include/UIlib.h"
 #include "resource.h"
-#include "init_auth_sdk_workflow.h"
-#include "sdk_demo_app_common.h"
+#include "../Init/init_auth_sdk_workflow.h"
+#include "../sdk_demo_app_common.h"
 //#include "toolbar_manager.h"
 /////////////////////////
 class CSDKInitAuthUIMgr;

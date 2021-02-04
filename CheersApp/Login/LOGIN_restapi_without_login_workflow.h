@@ -1,8 +1,8 @@
 #pragma once
-#include "sdk_util.h"
-#include "UIlib.h"
+#include "../sdk_util.h"
+#include "../../zoom-sdk-windows-master/demo/duilib/include/UIlib.h"
 #include "resource.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_demo_app_common.h"
 #include "LOGIN_login_with_email_workflow.h"
 
 class CSDKRestAPIUserUIEvent

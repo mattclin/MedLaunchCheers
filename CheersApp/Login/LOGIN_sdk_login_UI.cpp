@@ -1,8 +1,8 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "LOGIN_sdk_login_UI.h"
 #include <stdarg.h>
-#include "auth_service_interface.h"
-#include "mess_info.h"
+#include "../../zoom-sdk-windows-master/h/auth_service_interface.h"
+#include "../Debugging/mess_info.h"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //class CSDKLoginWithEmailUIGroup 

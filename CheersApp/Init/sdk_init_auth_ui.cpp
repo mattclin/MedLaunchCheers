@@ -1,5 +1,5 @@
-#include "stdafx.h"
-#include "sdk_init_auth_ui.h"
+#include "../stdafx.h"
+#include "../sdk_init_auth_ui.h"
 #include "mess_info.h"
 CInitSDKUIGroup::CInitSDKUIGroup()
 {

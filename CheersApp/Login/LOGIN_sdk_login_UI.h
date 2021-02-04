@@ -1,12 +1,12 @@
 #pragma once
-#include "sdk_util.h"
-#include "UIlib.h"
+#include "../sdk_util.h"
+#include "../../zoom-sdk-windows-master/demo/duilib/include/UIlib.h"
 #include "resource.h"
 #include "LOGIN_login_with_email_workflow.h"
 #include "LOGIN_login_with_sso_workflow.h"
 #include "LOGIN_join_meeting_only_workflow.h"
 #include "LOGIN_restapi_without_login_workflow.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_demo_app_common.h"
 /////////////////////////
 enum loginTabPage
 {
