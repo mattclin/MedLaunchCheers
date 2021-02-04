@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "Join_meeting_for_login_user_ui.h"
 CSDKJoinMeetingForLoginUserUIGroup::CSDKJoinMeetingForLoginUserUIGroup()
 {

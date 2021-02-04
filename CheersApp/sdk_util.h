@@ -1,6 +1,6 @@
 #pragma once
 
-#include "zoom_sdk.h"
+#include "h/zoom_sdk.h"
 #include "zoom_sdk_ext.h"
 #include "premeeting_service_interface.h"
 #include "outlook_plugin_integration_helper_interface.h"
