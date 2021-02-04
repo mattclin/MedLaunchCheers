@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "SETTINGS_virtualBG_workflow.h"
 
 CSDKVirtualBGSettingsWorkFlow::CSDKVirtualBGSettingsWorkFlow()

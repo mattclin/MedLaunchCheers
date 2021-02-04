@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "SETTINGS_ui_custom_workflow.h"
 CSDKUICustomSettingsWorkFlow::CSDKUICustomSettingsWorkFlow()
 {
