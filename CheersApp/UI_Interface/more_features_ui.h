@@ -1,10 +1,10 @@
 #pragma once
 
-#include "Resource.h"
+#include "../Resource.h"
 #include "more_features_workflow.h"
-#include "util_window.h"
-#include "mess_info.h"
-#include "UIlib.h"
+#include "../util_window.h"
+#include "../Debugging/mess_info.h"
+#include "../duilib/include/UIlib.h"
 using namespace DuiLib;
 
 #define WND_DEFAULT_MENU_OPTION_WIDTH 160

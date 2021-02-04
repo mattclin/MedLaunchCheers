@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "sdk_demo_app.h"
-#include "display_cc_ui.h"
+// #include "display_cc_ui.h" //TODO: comment out closed captioning code
 void CSDKDemoApp::Run(HINSTANCE hInstance)
 {
 	CPaintManagerUI::SetInstance(hInstance);

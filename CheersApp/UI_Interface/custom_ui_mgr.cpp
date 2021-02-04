@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "custom_ui_mgr.h"
 
 //#include <atlbase.h>

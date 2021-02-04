@@ -1,8 +1,8 @@
 #pragma once
-#include "resource.h"
-#include "UIlib.h"
-#include "sdk_util.h"
-#include "user_manager.h"
+#include "../Resource.h"
+#include "../duilib/include/UIlib.h"
+#include "../sdk_util.h"
+#include "../user_manager.h" //TODO: double check this dependency
 
 using namespace DuiLib;
 

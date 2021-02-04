@@ -1,14 +1,14 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "more_menu_ui.h"
 #include "custom_ui_mgr.h"
-#include "CustomizedUIRecordMgr.h"
+//#include "CustomizedUIRecordMgr.h"
 
 CMoreMenuUIMgr::CMoreMenuUIMgr()
 {
 	m_ListMenu = NULL;
 	posX = 400;//default window show position
 	posY = 800;
-	m_pListElementLocalRecord = NULL;
+	m_pListElementLocalRecord = NULL; //TODO: delete Record?
 	m_pListElementCloudRecord = NULL;
 	m_pListElementStopRecord = NULL;
 	m_pListElementStopCMR = NULL;
@@ -23,7 +23,7 @@ CMoreMenuUIMgr::CMoreMenuUIMgr( int left, int bottom , CCustomizeInMeetingUIMgr*
 	m_cc_frame = NULL;
 	m_invite_frame = NULL;
 	m_more_features_frame = NULL;
-	m_pListElementLocalRecord = NULL;
+	m_pListElementLocalRecord = NULL; //TODO: delete Record?
 	m_pListElementCloudRecord = NULL;
 	m_pListElementStopRecord = NULL;
 	m_pListElementStopCMR = NULL;
@@ -42,7 +42,7 @@ CMoreMenuUIMgr::~CMoreMenuUIMgr()
 void CMoreMenuUIMgr::InitWindow()
 {
 	m_ListMenu = static_cast<CListUI* >(m_PaintManager.FindControl(L"menu_list"));
-	AddElement(L"Local Record");
+	AddElement(L"Local Record"); //TODO: delete Record?
 	AddElement(L"Cloud Record");
 	AddElement(L"Stop Record");
 	AddElement(L"Stop Cloud Record");
@@ -52,7 +52,7 @@ void CMoreMenuUIMgr::InitWindow()
 	AddElement(L"More Features");
 	RepaintClient(posX, posY);
 
-	m_pListElementLocalRecord = dynamic_cast<CListLabelElementUI*>(m_PaintManager.FindControl(L"Local Record"));
+	m_pListElementLocalRecord = dynamic_cast<CListLabelElementUI*>(m_PaintManager.FindControl(L"Local Record")); 
 	m_pListElementCloudRecord = dynamic_cast<CListLabelElementUI*>(m_PaintManager.FindControl(L"Cloud Record"));
     m_pListElementStopRecord  = dynamic_cast<CListLabelElementUI*>(m_PaintManager.FindControl(L"Stop Record"));
 	if (m_pListElementStopRecord) m_pListElementStopRecord->SetEnabled(false);
@@ -136,7 +136,7 @@ void CMoreMenuUIMgr::Notify( TNotifyUI& msg )
 		{
 			DoClickMoreFeaturesBtn();
 		}
-		else if (msg.pSender == m_PaintManager.FindControl(L"Local Record"))
+		else if (msg.pSender == m_PaintManager.FindControl(L"Local Record")) //TODO: delete Record?
 		{
 			time_t timeNow;
 			if (CustomizedUIRecordMgr::GetInstance()->CanIStartLocalRecording() == false){

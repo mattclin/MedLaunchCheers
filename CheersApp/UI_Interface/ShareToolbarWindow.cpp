@@ -1,7 +1,7 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "ShareToolbarWindow.h"
 #include "custom_ui_mgr.h"
-#include "AnnotateBarWindow.h"
+//#include "AnnotateBarWindow.h" //TODO: comment out related files
 
 ShareToolbarWindow::ShareToolbarWindow(CCustomizeInMeetingUIMgr* pMainUI)
 {
@@ -9,13 +9,13 @@ ShareToolbarWindow::ShareToolbarWindow(CCustomizeInMeetingUIMgr* pMainUI)
 	m_btnGiveControlTo = NULL;
 	m_btnStopRemoteControl = NULL;
 	m_pComboxUsers = NULL;
-	m_pAnnotateBarWindow = NULL;
+	m_pAnnotateBarWindow = NULL; //TODO: delete?
 	m_btnAnnotate = NULL;
 }
 
 ShareToolbarWindow::~ShareToolbarWindow()
 {
-	if (m_pAnnotateBarWindow){
+	if (m_pAnnotateBarWindow){ //TODO: delete?
 		delete m_pAnnotateBarWindow;
 		m_pAnnotateBarWindow = NULL;
 	}
@@ -24,7 +24,7 @@ ShareToolbarWindow::~ShareToolbarWindow()
 	}
 }
 
-void ShareToolbarWindow::ShowAnnotateBarWindow()
+void ShareToolbarWindow::ShowAnnotateBarWindow() //TODO: delete?
 {
 	if (m_pAnnotateBarWindow == NULL) {
 		m_pAnnotateBarWindow = new AnnotateBarWindow(NULL);
@@ -144,7 +144,7 @@ void ShareToolbarWindow::Notify( TNotifyUI& msg )
 		}
 		else if (msg.pSender == m_btnAnnotate)
 		{
-			ShowAnnotateBarWindow();
+			ShowAnnotateBarWindow(); //TODO: delete?
 		}
 	}
 }

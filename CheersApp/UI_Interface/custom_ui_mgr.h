@@ -3,19 +3,19 @@
 
 #include <string>
 #include <map>
-#include "resource.h"
+#include "../resource.h"
 #include "custom_ui_base.h"
 #include "custom_ui_mgr_flow.h"
 #include "custom_ui_video_mgr.h"
 #include "custom_ui_share_mgr.h"
 #include "toolbar_manager.h"
 #include "arrow_window.h"
-#include "chat_controller_ui.h"
-#include "participant_ui.h"
-#include "user_manager.h"
+//#include "chat_controller_ui.h"
+//#include "participant_ui.h"
+#include "../user_manager.h"
 #include "more_menu_ui.h"
-#include "display_cc_ui.h"
-#include "CameraControlWindow.h"
+//#include "display_cc_ui.h" //probably for closed captioning
+//#include "CameraControlWindow.h"
 
 #define Custom_Smallest_UI_Height 280
 #define Custom_Smallest_UI_Weight 700
@@ -99,7 +99,7 @@ public:
 	void UpdateShareButtonStatus();
 	void UpdateToolbarButtons();
 	HWND GetHWND();
-	ClosedCaptionDisplayUI* CreateDisplayCCWnd();
+	ClosedCaptionDisplayUI* CreateDisplayCCWnd(); //TODO: delete?
 	void DestroyDisplayCCWnd();
 	void UpdateParticipantsWindow();
 	
@@ -156,7 +156,7 @@ private:
 	CSDKMeetingChatUIMgr* m_pChatUIMgr;
 	CameraControlWindow* m_pCameraControlWin;
 	CMoreMenuUIMgr* m_more_menu_ui;
-	ClosedCaptionDisplayUI* m_display_cc_ui;
+	ClosedCaptionDisplayUI* m_display_cc_ui; //TODO: delete?
 
 	CToolbarMgr m_pToolbarMgr;
 	CParticipantUIMgr* m_pParticipantUIMgr;

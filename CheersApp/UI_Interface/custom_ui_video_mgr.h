@@ -1,12 +1,12 @@
 #pragma once
-#include "sdk_util.h"
+#include "../sdk_util.h"
 #include "custom_ui_mgr.h"
 #include <string>
 #include <map>
-#include "resource.h"
+#include "../Resource.h" //changed from lowercase "resource.h"
 #include "custom_ui_base.h"
 #include "custom_ui_video_flow.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_demo_app_common.h"
 
 #define GalleryView_Need_Init -1
 #define Custom_MeetingUI_Height  740

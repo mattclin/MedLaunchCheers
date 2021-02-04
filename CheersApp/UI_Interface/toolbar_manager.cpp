@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "toolbar_manager.h"
 
 CToolbarMgr& CToolbarMgr::GetInstance()

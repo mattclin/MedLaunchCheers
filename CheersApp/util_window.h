@@ -1,10 +1,10 @@
 #pragma once
 
 #include "Resource.h"
-#include "more_features_workflow.h"
-#include "mess_info.h"
-//#include "meeting_service_components/meeting_video_interface.h"
-#include "UIlib.h"
+#include "UI_Interface/more_features_workflow.h"
+#include "Debugging/mess_info.h"
+//#include "meeting_service_components/meeting_video_interface.h" //TODO: comment relevant code out
+#include "duilib/include/UIlib.h"
 using namespace DuiLib;
 
 enum FEATURE_TYPE

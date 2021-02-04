@@ -1,8 +1,8 @@
 #pragma once
-#include "sdk_util.h"
+#include "../sdk_util.h"
 #include <string>
 #include <map>
-#include "resource.h"
+#include "../resource.h"
 class IUIVideoContanier
 {
 public:

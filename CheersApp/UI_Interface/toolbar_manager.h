@@ -1,7 +1,7 @@
 #pragma once
-#include "sdk_util.h"
-#include "sdk_demo_app_common.h"
-#include "toolbar_bottom_ui.h"
+#include "../sdk_util.h"
+#include "../sdk_demo_app_common.h"
+#include "../toolbar_bottom_ui.h"
 #define MEETING_BOTTOM_TOOLBAR_TITLE _T("Zoom SDK bottom toolbar")
 
 class CToolbarBottom;

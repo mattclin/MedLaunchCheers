@@ -1,7 +1,7 @@
 #pragma once
-#include "sdk_util.h"
-#include "UIlib.h"
-#include "Resource.h"
+#include "../sdk_util.h"
+#include "../duilib/include/UIlib.h" //TODO: check
+#include "../Resource.h"
 #include "toolbar_bottom_workflow.h"
 #include "toolbar_manager.h"
 #define DEFAULT_TOOLBAR_HEIGHT  53

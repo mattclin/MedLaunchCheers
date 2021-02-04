@@ -1,9 +1,9 @@
 #pragma once
-#include "Resource.h"
-#include "UIlib.h"
+#include "../Resource.h"
+#include "../duilib/include/UIlib.h"
 
-#include "close_caption_ui.h"
-#include "invitation_ui.h"
+//#include "close_caption_ui.h" //TODO: comment out closed caption code
+#include "../Scheduling/invitation_ui.h"
 #include "more_features_ui.h"
 using namespace DuiLib;
 

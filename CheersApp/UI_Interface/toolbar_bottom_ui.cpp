@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "toolbar_bottom_ui.h"
 
 CToolbarBottom::CToolbarBottom(CToolbarMgr* pToolbarMgr)

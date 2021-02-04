@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "arrow_window.h"
 
 CArrowWindow::CArrowWindow(CCustomizeInMeetingUIMgr* pCustomizeUI)

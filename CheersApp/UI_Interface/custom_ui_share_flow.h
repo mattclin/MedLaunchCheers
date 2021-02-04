@@ -1,6 +1,6 @@
 #pragma once
-#include "sdk_util.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_util.h"
+#include "../sdk_demo_app_common.h"
 
 class CCustomizeUIShareFlow
 {

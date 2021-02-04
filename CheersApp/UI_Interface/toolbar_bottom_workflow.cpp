@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "toolbar_bottom_workflow.h"
 
 CToolbarBottomWorkFlow::CToolbarBottomWorkFlow()

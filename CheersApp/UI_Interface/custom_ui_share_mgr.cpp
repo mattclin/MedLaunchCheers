@@ -1,7 +1,7 @@
-#include "StdAfx.h"
+#include "../stdafx.h"
 #include "custom_ui_share_mgr.h"
 #include "ShareToolbarWindow.h"
-#include "ViewOptionsWindow.h"
+//#include "ViewOptionsWindow.h"
 
 
 CCustomizeUIShareRenderUI::CCustomizeUIShareRenderUI(CCustomizeUIShareMgr* pCustomizeShareUIMgr)
@@ -340,7 +340,7 @@ CCustomizeUIShareMgr::CCustomizeUIShareMgr(CCustomizeInMeetingUIMgr* pMainUI)
 {
 	m_pMainUI = pMainUI;
 	m_pCustomizedShareRender = NULL;
-	m_pViewOptionsWindow = NULL;
+	m_pViewOptionsWindow = NULL; //TODO: delete?
 	m_pShareToolbarWin = NULL;
 	m_pSelectShareUI = NULL;
 }
@@ -604,7 +604,7 @@ void CCustomizeUIShareMgr::HandleSharingStatus(ZOOM_SDK_NAMESPACE::SharingStatus
 			{
 				ShowNextShareContent(userId);
 			}
-			ShowViewOptionsWindow(true);
+			ShowViewOptionsWindow(true); //TODO: delete?
 		}
 		break;
 	case ZOOM_SDK_NAMESPACE::Sharing_Other_Share_End:
@@ -624,7 +624,7 @@ void CCustomizeUIShareMgr::HandleSharingStatus(ZOOM_SDK_NAMESPACE::SharingStatus
 				m_pCustomizeUIShareFlow.Hide();
 				if(m_pShareRenderUI)
 					m_pShareRenderUI->HideMe();
-				DestroyViewOptionsWindow(); 
+				DestroyViewOptionsWindow(); //TODO: delete?
 			}
 		}	
 		break;
@@ -740,7 +740,7 @@ void CCustomizeUIShareMgr::DestroyShareToolbarWindow()
 	}
 }
 
-void CCustomizeUIShareMgr::ShowViewOptionsWindow(bool bShow)
+void CCustomizeUIShareMgr::ShowViewOptionsWindow(bool bShow) //TODO: delete?
 {   
 	if (m_pViewOptionsWindow == NULL){
 		m_pViewOptionsWindow = new(std::nothrow) ViewOptionsWindow(m_pCustomizedShareRender);
@@ -752,7 +752,7 @@ void CCustomizeUIShareMgr::ShowViewOptionsWindow(bool bShow)
 	m_pViewOptionsWindow->ShowWindow(bShow);
 }
 
-void CCustomizeUIShareMgr::DestroyViewOptionsWindow()
+void CCustomizeUIShareMgr::DestroyViewOptionsWindow() //TODO: delete?
 {
 	if (m_pViewOptionsWindow){
 		delete m_pViewOptionsWindow;
@@ -765,7 +765,7 @@ void CCustomizeUIShareMgr::DestroyAllShareWindows()
 	DestroySelectShareUI();
 	DestroyShareRenderUI();
 	DestroyShareToolbarWindow();
-	DestroyViewOptionsWindow();
+	DestroyViewOptionsWindow(); //TODO: delete?
 }
 
 void CCustomizeUIShareMgr::HandleUserChanged()

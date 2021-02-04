@@ -1,7 +1,7 @@
 #pragma once
-#include "sdk_util.h"
-#include "UIlib.h"
-#include "Resource.h"
+#include "../sdk_util.h"
+#include "../duilib/include/UIlib.h"
+#include "../Resource.h"
 
 #include "custom_ui_mgr.h"
 #include "sdk_demo_app_common.h"

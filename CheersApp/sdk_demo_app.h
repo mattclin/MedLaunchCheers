@@ -1,15 +1,15 @@
 #pragma once
 #include "sdk_util.h"
-#include "UIlib.h"
-#include "sdk_init_auth_ui.h"
-#include "LOGIN_sdk_login_UI.h"
-#include "LoggedIn_sdk_controller_ui.h"
+#include "duilib/include/UIlib.h"
+#include "Init/sdk_init_auth_ui.h"
+#include "Login/LOGIN_sdk_login_UI.h"
+#include "Login/LoggedIn_sdk_controller_ui.h"
 #include "sdk_demo_app_common.h"
-#include "schedule_meeting_ui.h"
-#include "settings_ui.h"
-#include "Join_meeting_for_login_user_ui.h"
-#include "custom_ui_mgr.h"
-#include "more_menu_ui.h"
+#include "Scheduling/schedule_meeting_ui.h"
+#include "Settings/settings_ui.h"
+#include "Login/Join_meeting_for_login_user_ui.h"
+#include "UI_Interface/custom_ui_mgr.h"
+#include "UI_Interface/more_menu_ui.h"
 class CSDKDemoApp : public CSDKDemoAppEvent
 {
 public:
