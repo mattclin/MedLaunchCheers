@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "LOGIN_login_with_email_workflow.h"
 
 CSDKLoginWithEmailFlow::CSDKLoginWithEmailFlow()

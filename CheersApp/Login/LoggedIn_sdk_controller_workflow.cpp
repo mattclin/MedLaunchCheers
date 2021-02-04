@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "LoggedIn_sdk_controller_workflow.h"
 
 CSDKLoggedInUIWorkFlow::CSDKLoggedInUIWorkFlow()

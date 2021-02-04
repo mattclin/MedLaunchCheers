@@ -4,7 +4,7 @@
 #include "resource.h"
 #include "Join_meeting_for_login_user_workflow.h"
 #include "LoggedIn_sdk_controller_ui.h"
-#include "sdk_demo_app_common.h"
+#include "../sdk_demo_app_common.h"
 
 class CSDKJoinMeetingForLoginUserFlowUIEvent;
 class CSDKJoinMeetingForLoginUserUIMgr;

@@ -1,6 +1,6 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include "init_auth_sdk_workflow.h"
-#include "sdk_util.h"
+#include "../sdk_util.h"
 
 CInitSDKWorkFlow::CInitSDKWorkFlow()
 {
