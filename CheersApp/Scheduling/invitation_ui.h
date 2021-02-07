@@ -1,9 +1,9 @@
 #pragma once
 #include <Windows.h>
-#include "sdk_util.h"
+#include "../sdk_util.h"
 #include "invitation_workflow.h"
-#include "Resource.h"
-#include "UIlib.h"
+#include "../Resource.h"
+#include "../../zoom-sdk-windows-master/demo/duilib/include/UIlib.h"
 using namespace DuiLib;
 
 class CInvitationUIMgr:

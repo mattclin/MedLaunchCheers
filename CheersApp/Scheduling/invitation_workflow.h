@@ -1,6 +1,6 @@
 #pragma once
 
-#include "sdk_util.h"
+#include "../sdk_util.h"
 
 class CInvitationWorkflow
 {

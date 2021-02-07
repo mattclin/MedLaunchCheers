@@ -1,11 +1,10 @@
 #pragma once
 
 #include "schedule_meeting_workflow.h"
-#include "UIlib.h"
-#include "sdk_demo_app_common.h"
-#include "resource.h"
-#include "mess_info.h"
-#include "dial_in_country_ui.h"
+#include "../../zoom-sdk-windows-master/demo/duilib/include/UIlib.h"
+#include "../sdk_demo_app_common.h"
+#include "../resource.h"
+#include "../Debugging/mess_info.h"
 #include <sstream>
 
 enum ErrorMessageType
