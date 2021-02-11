@@ -1,0 +1,33 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1291	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	444	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	479	
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	863	
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	870	
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	897	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1166	
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1298	
+Error (active)	E0167	argument of type "const char *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1305	
+Error (active)	E0349	no operator "==" matches these operands	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1470	
+Error (active)	E0349	no operator "=" matches these operands	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1472	
+Error (active)	E0349	no operator "=" matches these operands	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1473	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1475	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1476	
+Error (active)	E0415	no suitable constructor exists to convert from "const char [26]" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1592	
+Error (active)	E0513	a value of type "const wchar_t *" cannot be assigned to an entity of type "LPCSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1593	
+Error (active)	E0167	argument of type "TCHAR *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1597	
+Error (active)	E0167	argument of type "TCHAR *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1599	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCTSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1795	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1802	
+Error (active)	E0167	argument of type "TCHAR *" is incompatible with parameter of type "const wchar_t *"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1822	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	1830	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3218	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3219	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3229	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3230	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3241	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3242	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3421	
+Error (active)	E0415	no suitable constructor exists to convert from "LPCTSTR" to "std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3422	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3690	
+Error (active)	E0167	argument of type "const wchar_t *" is incompatible with parameter of type "LPCSTR"	cheers-prototype	E:\MedLaunch\Cheers\CheersApp\Settings\settings_ui.cpp	3690	

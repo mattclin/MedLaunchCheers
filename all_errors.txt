@@ -1,0 +1,78 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C1083	Cannot open include file: 'stdafx.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\scheduling\invitation_workflow.cpp	1	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2679	binary '=': no operator found which takes a right-hand operand of type 'const char [20]' (or there is no acceptable conversion)	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	95	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LoggedIn_sdk_controller_workflow.h	4	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C1083	Cannot open include file: 'stdafx.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\scheduling\invitation_ui.cpp	1	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LOGIN_join_meeting_only_workflow.h	4	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\Join_meeting_for_login_user_workflow.h	4	
+Error	C1083	Cannot open include file: '../../zoom-sdk-windows-master/demo/include/UIlib.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\Init\sdk_init_auth_ui.h	3	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C1083	Cannot open include file: 'stdafx.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\setting_api_test.cpp	1	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2679	binary '=': no operator found which takes a right-hand operand of type 'const char [19]' (or there is no acceptable conversion)	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	90	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C1083	Cannot open include file: 'stdafx.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\scheduling\schedule_meeting_workflow.cpp	1	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::DuiSig': 'enum' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	15	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2664	'int wsprintfA(LPSTR,LPCSTR,...)': cannot convert argument 1 from 'wchar_t *' to 'LPSTR'	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	124	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2664	'int wsprintfA(LPSTR,LPCSTR,...)': cannot convert argument 1 from 'wchar_t *' to 'LPSTR'	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	128	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LOGIN_sdk_login_UI.h	4	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2011	'DuiLib::DUI_MSGMAP_ENTRY': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	101	
+Error	C2679	binary '=': no operator found which takes a right-hand operand of type 'const char [22]' (or there is no acceptable conversion)	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	100	
+Error	C1083	Cannot open include file: '../../zoom-sdk-windows-master/demo/include/UIlib.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\Init\sdk_init_auth_ui.h	3	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\Join_meeting_for_login_user_ui.h	4	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C1083	Cannot open include file: '../sdk_init_auth_ui.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\init\sdk_init_auth_ui.cpp	2	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2679	binary '=': no operator found which takes a right-hand operand of type 'const char [21]' (or there is no acceptable conversion)	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\debugging\mess_info.cpp	105	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LoggedIn_sdk_controller_ui.h	4	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LOGIN_login_with_email_workflow.h	4	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LOGIN_restapi_without_login_workflow.h	4	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C1083	Cannot open include file: 'resource.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\login\LOGIN_login_with_sso_workflow.h	4	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
+Error	C2011	'DuiLib::DuiMessageMapFunctions': 'union' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	39	
+Error	C2011	'CWndShadow': 'class' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Utils\WndShadow.h	33	
+Error	C2011	'DuiLib::DUI_MSGMAP': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	90	
+Error	C1083	Cannot open include file: 'stdafx.h': No such file or directory	cheers-prototype	E:\MedLaunch\Cheers\cheersapp\scheduling\schedule_meeting_ui.cpp	1	
+Error	C2011	'DuiLib::tagTNotifyUI': 'struct' type redefinition	cheers-prototype	E:\MedLaunch\Cheers\zoom-sdk-windows-master\demo\duilib\include\Core\UIDefine.h	25	
