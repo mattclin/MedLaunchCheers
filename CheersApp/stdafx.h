@@ -17,6 +17,8 @@
 #include <memory.h>
 //#include <tchar.h>
 //#include <atltypes.h>
+//#include "UIlib.h"
 #include "duilib/include/UIlib.h"
+
 using namespace DuiLib;
 // TODO: reference additional headers your program requires here

@@ -371,7 +371,10 @@ public:
 	/// \return TRUE indicates enabled. FALSE not.
 	virtual bool IsRemoteControlAllApplicationsEnabled() = 0;
 
-	/// \brief Set the visibility of the green border when sharing the application.	/// \param bShow TRUE indicates to display the frame. FALSE hide.	/// \return If the function succeeds, the return value is SDKErr_Success.	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
+	/// \brief Set the visibility of the green border when sharing the application.
+	/// \param bShow TRUE indicates to display the frame. FALSE hide.
+	/// \return If the function succeeds, the return value is SDKErr_Success.
+	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
 	virtual SDKError EnableGreenBorderWhenShare(bool bEnable) = 0;
 
 	/// \brief Determine if the green border is enabled when user shares.
@@ -382,7 +385,10 @@ public:
 	/// \return TRUE indicates support. FALSE not.
 	virtual bool IsLimitFPSEnabledWhenShare() = 0;
 
-	/// \brief Enable/disable the 'limited sharing fps' feature when uses shares.	/// \param bEnable TRUE indicates to enable the litmited fps feature. FALSE hide.	/// \return If the function succeeds, the return value is SDKErr_Success.	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
+	/// \brief Enable/disable the 'limited sharing fps' feature when uses shares.
+	/// \param bEnable TRUE indicates to enable the litmited fps feature. FALSE hide.
+	/// \return If the function succeeds, the return value is SDKErr_Success.
+	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
 	virtual SDKError EnableLimitFPSWhenShare(bool bEnable) = 0;	
 
 	/// \brief Get the limited sharing fps value when the 'limited sharing fps' feature is enabled.
@@ -795,7 +801,10 @@ public:
 class IRecordingSettingContextEvent
 {
 public:
-	/// \brief Notification of the current cloud recording storage information.	/// \param storage_total_size Specify the total storage space.	/// \param storage_used_size Specify the used storage space.	/// \param allow_exceed_storage Specify whether the used space can overflow the total space. 
+	/// \brief Notification of the current cloud recording storage information.
+	/// \param storage_total_size Specify the total storage space.
+	/// \param storage_used_size Specify the used storage space.
+	/// \param allow_exceed_storage Specify whether the used space can overflow the total space. 
 	virtual void onCloudRecordingStorageInfo(INT64 storage_total_size, INT64 storage_used_size, bool allow_exceed_storage) = 0;
 };
 
