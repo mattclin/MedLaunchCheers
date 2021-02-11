@@ -16,6 +16,7 @@
 #endif
 #include <shellapi.h>
 #include "Shlobj.h" //Couldn't find this file
+#include "../duilib/include/Core/UIDefine.h"
 					//TODO: Find what Shlobj.h is
 
 enum settingsAudioTestingType

@@ -1,6 +1,6 @@
 #pragma once
 #include "../sdk_util.h"
-#include "../../zoom-sdk-windows-master/demo/include/UIlib.h"
+#include "../../zoom-sdk-windows-master/demo/duilib/include/UIlib.h"
 #include "resource.h"
 #include "../Init/init_auth_sdk_workflow.h"
 #include "../sdk_demo_app_common.h"

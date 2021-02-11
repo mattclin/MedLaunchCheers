@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{0E984EE7-4755-467C-914E-946EBB2726F9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cheersapp\debugging\mess_info.cpp" />
+    <ClCompile Include="cheersapp\debugging\setting_api_test.cpp" />
+    <ClCompile Include="cheersapp\duilib\include\utils\stb_image.c" />
+    <ClCompile Include="cheersapp\init\init_auth_sdk_workflow.cpp" />
+    <ClCompile Include="cheersapp\init\sdk_init_auth_ui.cpp" />
+    <ClCompile Include="cheersapp\login\Join_meeting_for_login_user_ui.cpp" />
+    <ClCompile Include="cheersapp\login\Join_meeting_for_login_user_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LoggedIn_sdk_controller_ui.cpp" />
+    <ClCompile Include="cheersapp\login\LoggedIn_sdk_controller_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LOGIN_join_meeting_only_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LOGIN_login_with_email_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LOGIN_login_with_sso_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LOGIN_restapi_without_login_workflow.cpp" />
+    <ClCompile Include="cheersapp\login\LOGIN_sdk_login_UI.cpp" />
+    <ClCompile Include="cheersapp\scheduling\invitation_ui.cpp" />
+    <ClCompile Include="cheersapp\scheduling\invitation_workflow.cpp" />
+    <ClCompile Include="cheersapp\scheduling\schedule_meeting_ui.cpp" />
+    <ClCompile Include="cheersapp\scheduling\schedule_meeting_workflow.cpp" />
+    <ClCompile Include="cheersapp\sdk_demo_app.cpp" />
+    <ClCompile Include="cheersapp\sdk_demo_v2.cpp" />
+    <ClCompile Include="cheersapp\sdk_util.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_audio_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_feature_custom_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_general_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_recording_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\settings_ui.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_ui_custom_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_video_workflow.cpp" />
+    <ClCompile Include="cheersapp\settings\SETTINGS_virtualBG_workflow.cpp" />
+    <ClCompile Include="cheersapp\stdafx.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\arrow_window.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_mgr.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_mgr_flow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_share_flow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_share_mgr.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_video_flow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\custom_ui_video_mgr.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\more_features_ui.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\more_features_workflow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\more_menu_ui.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\ShareToolbarWindow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\toolbar_bottom_ui.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\toolbar_bottom_workflow.cpp" />
+    <ClCompile Include="cheersapp\ui_interface\toolbar_manager.cpp" />
+    <ClCompile Include="cheersapp\util_window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheersapp\debugging\mess_info.h" />
+    <ClInclude Include="cheersapp\debugging\setting_api_test.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIActiveX.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIButton.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UICheckBox.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UICombo.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIDateTime.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIEdit.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIFlash.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIGifAnim.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UILabel.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIList.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIOption.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIProgress.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIRichEdit.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIScrollBar.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UISlider.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIText.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UITreeView.h" />
+    <ClInclude Include="cheersapp\duilib\include\control\UIWebBrowser.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIBase.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIContainer.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIControl.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIDefine.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIDlgBuilder.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIManager.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIMarkup.h" />
+    <ClInclude Include="cheersapp\duilib\include\core\UIRender.h" />
+    <ClInclude Include="cheersapp\duilib\include\layout\UIChildLayout.h" />
+    <ClInclude Include="cheersapp\duilib\include\layout\UIHorizontalLayout.h" />
+    <ClInclude Include="cheersapp\duilib\include\layout\UITabLayout.h" />
+    <ClInclude Include="cheersapp\duilib\include\layout\UITileLayout.h" />
+    <ClInclude Include="cheersapp\duilib\include\layout\UIVerticalLayout.h" />
+    <ClInclude Include="cheersapp\duilib\include\UIlib.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\downloadmgr.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\FlashEventHandler.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\stb_image.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\UIDelegate.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\Utils.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\WebBrowserEventHandler.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\WinImplBase.h" />
+    <ClInclude Include="cheersapp\duilib\include\utils\WndShadow.h" />
+    <ClInclude Include="cheersapp\h\auth_service_interface.h" />
+    <ClInclude Include="cheersapp\h\calender_service_interface.h" />
+    <ClInclude Include="cheersapp\h\customized_resource_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\customized_annotation.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\customized_local_recording.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\customized_share_render.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\customized_ui_mgr.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\customized_video_container.h" />
+    <ClInclude Include="cheersapp\h\customized_ui\zoom_customized_ui.h" />
+    <ClInclude Include="cheersapp\h\direct_share_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\embedded_browser_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_annotation_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_audio_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_breakout_rooms_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_breakout_rooms_interface_v2.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_chat_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_closedcaption_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_configuration_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_h323_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_live_stream_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_participants_ctrl_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_phone_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_qa_ctrl_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_recording_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_remote_ctrl_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_sharing_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_ui_ctrl_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_video_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_waiting_room_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_components\meeting_webinar_interface.h" />
+    <ClInclude Include="cheersapp\h\meeting_service_interface.h" />
+    <ClInclude Include="cheersapp\h\network_connection_handler_interface.h" />
+    <ClInclude Include="cheersapp\h\outlook_plugin_integration_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\premeeting_service_interface.h" />
+    <ClInclude Include="cheersapp\h\rawdata\rawdata_audio_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\rawdata\rawdata_renderer_interface.h" />
+    <ClInclude Include="cheersapp\h\rawdata\rawdata_video_source_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\rawdata\zoom_rawdata_api.h" />
+    <ClInclude Include="cheersapp\h\setting_service_interface.h" />
+    <ClInclude Include="cheersapp\h\ui_hook_interface.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_def.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_ext.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_platform.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_raw_data_def.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_sms_helper_interface.h" />
+    <ClInclude Include="cheersapp\h\zoom_sdk_util_define.h" />
+    <ClInclude Include="cheersapp\init\init_auth_sdk_workflow.h" />
+    <ClInclude Include="cheersapp\init\sdk_init_auth_ui.h" />
+    <ClInclude Include="cheersapp\login\Join_meeting_for_login_user_ui.h" />
+    <ClInclude Include="cheersapp\login\Join_meeting_for_login_user_workflow.h" />
+    <ClInclude Include="cheersapp\login\LoggedIn_sdk_controller_ui.h" />
+    <ClInclude Include="cheersapp\login\LoggedIn_sdk_controller_workflow.h" />
+    <ClInclude Include="cheersapp\login\LOGIN_join_meeting_only_workflow.h" />
+    <ClInclude Include="cheersapp\login\LOGIN_login_with_email_workflow.h" />
+    <ClInclude Include="cheersapp\login\LOGIN_login_with_sso_workflow.h" />
+    <ClInclude Include="cheersapp\login\LOGIN_restapi_without_login_workflow.h" />
+    <ClInclude Include="cheersapp\login\LOGIN_sdk_login_UI.h" />
+    <ClInclude Include="cheersapp\Resource.h" />
+    <ClInclude Include="cheersapp\scheduling\invitation_ui.h" />
+    <ClInclude Include="cheersapp\scheduling\invitation_workflow.h" />
+    <ClInclude Include="cheersapp\scheduling\schedule_meeting_ui.h" />
+    <ClInclude Include="cheersapp\scheduling\schedule_meeting_workflow.h" />
+    <ClInclude Include="cheersapp\sdk_demo_app.h" />
+    <ClInclude Include="cheersapp\sdk_demo_app_common.h" />
+    <ClInclude Include="cheersapp\sdk_demo_v2.h" />
+    <ClInclude Include="cheersapp\sdk_util.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_audio_workflow.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_feature_custom_workflow.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_general_workflow.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_recording_workflow.h" />
+    <ClInclude Include="cheersapp\settings\settings_ui.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_ui_custom_workflow.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_video_workflow.h" />
+    <ClInclude Include="cheersapp\settings\SETTINGS_virtualBG_workflow.h" />
+    <ClInclude Include="cheersapp\stdafx.h" />
+    <ClInclude Include="cheersapp\targetver.h" />
+    <ClInclude Include="cheersapp\tchar.h" />
+    <ClInclude Include="cheersapp\ui_interface\arrow_window.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_base.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_mgr.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_mgr_flow.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_share_flow.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_share_mgr.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_video_flow.h" />
+    <ClInclude Include="cheersapp\ui_interface\custom_ui_video_mgr.h" />
+    <ClInclude Include="cheersapp\ui_interface\more_features_ui.h" />
+    <ClInclude Include="cheersapp\ui_interface\more_features_workflow.h" />
+    <ClInclude Include="cheersapp\ui_interface\more_menu_ui.h" />
+    <ClInclude Include="cheersapp\ui_interface\ShareToolbarWindow.h" />
+    <ClInclude Include="cheersapp\ui_interface\toolbar_bottom_ui.h" />
+    <ClInclude Include="cheersapp\ui_interface\toolbar_bottom_workflow.h" />
+    <ClInclude Include="cheersapp\ui_interface\toolbar_manager.h" />
+    <ClInclude Include="cheersapp\user_manager.h" />
+    <ClInclude Include="cheersapp\util_window.h" />
+    <ClInclude Include="cheersapp\zoom_sdk.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\auth_service_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\calender_service_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_resource_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\customized_annotation.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\customized_local_recording.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\customized_share_render.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\customized_ui_mgr.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\customized_video_container.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\customized_ui\zoom_customized_ui.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\direct_share_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\embedded_browser_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_annotation_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_audio_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_breakout_rooms_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_breakout_rooms_interface_v2.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_chat_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_closedcaption_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_configuration_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_h323_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_live_stream_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_participants_ctrl_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_phone_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_qa_ctrl_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_recording_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_remote_ctrl_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_sharing_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_ui_ctrl_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_video_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_waiting_room_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_components\meeting_webinar_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\meeting_service_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\network_connection_handler_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\outlook_plugin_integration_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\premeeting_service_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\rawdata\rawdata_audio_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\rawdata\rawdata_renderer_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\rawdata\rawdata_video_source_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\rawdata\zoom_rawdata_api.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\setting_service_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\ui_hook_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_def.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_ext.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_platform.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_raw_data_def.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_sms_helper_interface.h" />
+    <ClInclude Include="zoom-sdk-windows-master\h\zoom_sdk_util_define.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
