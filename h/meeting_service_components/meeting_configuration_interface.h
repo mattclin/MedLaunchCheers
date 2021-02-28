@@ -541,6 +541,10 @@ public:
 	/// \brief Custom the menu items show or hide for attendee.
 	/// \param menuOption True indicates to hide the corresponding menu item for each item.
 	virtual void DisableAttendeeMenuItem(AttendeeMenuItemOption menuOption) = 0;
+
+	/// \brief Set the visibility of the INVITE link during the meeting. Default value: TRUE.
+	/// \param bEnable TRUE indicates to display the link. Otherwise not.
+	virtual void EnableInviteLinkOnMeetingUI(bool bEnable) = 0;
 };
 
 /// \brief Meeting connect configuration Interface

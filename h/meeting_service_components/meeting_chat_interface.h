@@ -212,12 +212,14 @@ public:
 	/// \param content The content of the chat message. 
 	/// \return If the function succeeds, the return value is SDKErr_Success.
 	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
+	/// \deprecated This interface will be deprecated, please use the interface SendChatMsgTo. 
 	virtual SDKError SendChatTo(unsigned int receiver, wchar_t* content) = 0;
 
 	/// \brief Send chat message in webinar.
 	/// \param chatIteam An instance of the structure of the chat message. For more details, see \link SendChatItem4Webinar \endlink structure.
 	/// \return If the function succeeds, the return value is SDKErr_Success.
 	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
+	/// \deprecated This interface will be deprecated, please use the interface SendChatMsgTo. 
 	virtual SDKError SendChat4WebinarMeeting(SendChatItem4Webinar& chatIteam) = 0;
 
 	/// \brief Get the authority status to send current message. 
@@ -225,7 +227,19 @@ public:
 	///Otherwise failed, the return value is NULL. To get extended error information, see \link ChatStatus \endlink.
 	virtual const ChatStatus* GetChatStatus() = 0;
 
+	/// \brief Set the chat priviledge of participants.
+	/// \param priviledge The chat priviledge of participants
+	/// \return If the function succeeds, the return value is SDKErr_Success.
+	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
 	virtual SDKError SetParticipantsChatPriviledge(SDKChatPriviledge priviledge) = 0;
+
+	/// \brief Send chat message in the normal meeting.
+	/// \param receiver Specify the user ID who receives the chat message. The message will be sent to all when the value is zero(0). 
+	/// \param content The content of the chat message. 
+	/// \param type The type of the chat message
+	/// \return If the function succeeds, the return value is SDKErr_Success.
+	///Otherwise failed. To get extended error information, see \link SDKError \endlink enum.
+	virtual SDKError SendChatMsgTo(wchar_t* content, unsigned int receiver, SDKChatMessageType type) = 0;
 };
 END_ZOOM_SDK_NAMESPACE
 #endif

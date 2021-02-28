@@ -113,6 +113,14 @@ public:
 	/// \return The status of the specified user. For more details, see \link WebinarAttendeeStatus \endlink structure.
 	virtual WebinarAttendeeStatus* GetWebinarAttendeeStauts() = 0;
 	
+	/// \brief Determine whether the user specified by the current information is a interpreter or not.
+	/// \return TRUE indicates that the specified user is a interpreter, otherwise not.
+	virtual bool IsInterpreter() = 0;
+
+	/// \brief Get the active language, if the user is a interpreter.
+	/// \return If success, the return value is the active language abbreviation, Otherwise the return value is ZERO(0).
+	virtual const wchar_t* GetInterpreterActiveLanguage() = 0;
+
 	virtual ~IUserInfo(){};
 };
 
@@ -170,11 +178,16 @@ public:
 
 	/// \brief Get the information of specified user.
 	/// \param userid Specify the user ID for which you want to get the information. 
-	///Zero(0) indicates to get the information of the current user.
+	/// \return If the function succeeds, the return value is a pointer to the IUserInfo. For more details, see \link IUserInfo \endlink.
+	///Otherwise failed, the return value is NULL.
+	/// \remarks Valid for both ZOOM style and user custom interface mode.
+	virtual IUserInfo* GetUserByUserID(unsigned int userid) = 0;
+
+	/// \brief Get the information of current user.
 	/// \return If the function succeeds, the return value is a pointer to the IUserInfo. For more details, see \link IUserInfo \endlink.
 	///Otherwise failed, the return value is NULL.
 	/// \remarks Valid for both ZOOM style and user custom interface mode..
-	virtual IUserInfo* GetUserByUserID(unsigned int userid) = 0;
+	virtual IUserInfo* GetMySelfUser() = 0;
 
 	/// \brief Cancel all hands raised.
 	/// \return If the function succeeds, the return value is SDKErr_Success.
