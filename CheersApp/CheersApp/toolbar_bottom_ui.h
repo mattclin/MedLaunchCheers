@@ -4,7 +4,8 @@
 #include "Resource.h"
 #include "toolbar_bottom_workflow.h"
 #include "toolbar_manager.h"
-#define DEFAULT_TOOLBAR_HEIGHT  53
+#define DEFAULT_TOOLBAR_HEIGHT  100
+#define DEFAULT_IMAGE_WIDTH 60
 
 
 
@@ -38,7 +39,7 @@ public:
 	virtual void onBtnClickedResult(ToolbarButtonType btnType, ZOOM_SDK_NAMESPACE::SDKError ret, bool bOn);
 	//void ProcUpdateButtonImage(ToolbarButtonType btnType, bool bOn);
 	void UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusType btnStatus);
-	void UpdateButtonImage(void* pbutton, wchar_t* strImage, int& nImageRight, int nImageWidth = 30);
+	void UpdateButtonImage(void* pbutton, wchar_t* strImage, int& nImageRight, int nImageWidth = 60);
 	void EndMeeting()
 	{
 		DoLeaveButtonClick();

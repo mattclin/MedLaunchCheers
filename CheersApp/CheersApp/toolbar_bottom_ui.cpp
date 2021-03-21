@@ -21,6 +21,7 @@ CToolbarBottom::~CToolbarBottom()
 
 void CToolbarBottom::InitWindow()
 {
+	//Where new buttons are defined
 	RECT rc = { 0 };
 	if( !::GetClientRect(m_hWnd, &rc) ) 
 		return;
@@ -37,7 +38,8 @@ void CToolbarBottom::InitWindow()
 	}
 	m_btnThumbnailVideo = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_thumbnailvideo")));
 	if(m_btnThumbnailVideo)            
-		m_btnThumbnailVideo->SetText(L"Show Gallery");
+		m_btnThumbnailVideo->SetText(L"See Everyone");
+	UpdateButton(Toolbar_Button_ThumbnailVideo, Button_UnMuted);
 	m_btnAudio = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_audio")));
 	if(m_btnAudio)
 		m_btnAudio->SetText(L"Mute Audio");
@@ -49,17 +51,20 @@ void CToolbarBottom::InitWindow()
 	m_btnShare = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_share")));
 	if(m_btnShare)
 		m_btnShare->SetText(L"Share");
+	UpdateButton(Toolbar_Button_Share, Button_UnMuted);
 	m_btnChat = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_chat")));
 	if(m_btnChat)
 		m_btnChat->SetText(L"Show Chat");
+	UpdateButton(Toolbar_Button_Chat, Button_UnMuted);
 	m_btnLeave = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_leavemeeting")));
-	if(m_btnLeave)
+	/*if(m_btnLeave)
 	{
 		if(m_pToolbarMgr && m_pToolbarMgr->IsHost())
 			m_btnLeave->SetText(L"End Meeting");
 		else
 			m_btnLeave->SetText(L"Leave Meeting");
-	}
+	}*/
+	UpdateButton(Toolbar_Button_Leave, Button_UnMuted);
 	m_btnMore = static_cast<CButtonUI* >(m_PaintManager.FindControl(L"btn_more"));
 	if (m_btnMore)
 	{
@@ -279,39 +284,44 @@ void CToolbarBottom::UpdateButtonImage(void* pbutton, wchar_t* strImage, int& nI
 	wchar_t strDest[128] = {0};
 	int nLeft = (nWidth - nImageWidth) / 2;
 	nImageRight = nLeft + nImageWidth;
-	wsprintf(strDest,_T("dest='%d,4,%d,34'"), nLeft, nImageRight);
+	wsprintf(strDest,_T("dest='%d,4,%d,54'"), nLeft, nImageRight);
 
 	wchar_t strImagePath[128] = {0};
-	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='0,0,%d,30' %s", strImage, nImageWidth, strDest);
+	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='0,0,%d,60' %s", strImage, nImageWidth, strDest);
 	pButton->SetForeImage(strImagePath);
-	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,30' %s", strImage, nImageWidth * 2, nImageWidth * 3, strDest);
+	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth, nImageWidth * 2, strDest);
 	pButton->SetHotForeImage(strImagePath);
-	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,30' %s", strImage, nImageWidth, nImageWidth * 2, strDest);
+	wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth * 2, nImageWidth * 3, strDest);
 	pButton->SetPushedImage(strImagePath);
 }
 
 void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusType btnStatus)
 {
+	unsigned int textColor = 0x00000000;
 	CButtonUI* button = GetButton(btnNeedUpdate);
 	if(NULL == button)
 		return;
-
+	button->SetTextColor(textColor);
+	unsigned int hotTextColor = 0x00256AE6;
+	button->SetHotTextColor(hotTextColor);
+	button->SetHotBkColor(hotTextColor);
 	switch(btnNeedUpdate)
 	{
 	case Toolbar_Button_Audio:
 		{
 			if(Button_UnMuted==btnStatus)
 			{
-				wchar_t* strText = L"Mute Audio";
-				button->SetText(strText);
+				//LPCTSTR strText = _T("Mute\nYourself");
+				//button->SetText(strText);
 				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
 				button->SetFixedWidth(nWidth);
 				int nImageRight = 0;
+				button->SetText(L"Mute Yourself");
 				UpdateButtonImage((void*)button, _T("toolbar_btn_mute.png"), nImageRight);
 			}
 			else if(Button_Muted == btnStatus)
 			{
-				wchar_t* strText = L"Unmute Audio";
+				wchar_t* strText = L"Unmute Yourself";
 				button->SetText(strText);
 				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
 				button->SetFixedWidth(nWidth);
@@ -332,7 +342,7 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 		{
 			if(Button_UnMuted == btnStatus)
 			{
-				wchar_t* strText = L"Hide Video";
+				wchar_t* strText = L"Turn Your Video Off";
 				button->SetText(strText);
 				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
 				button->SetFixedWidth(nWidth);
@@ -341,7 +351,7 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 			}
 			else if(Button_Muted == btnStatus)
 			{
-				wchar_t* strText = L"Start Video";
+				wchar_t* strText = L"Turn Your Video On";
 				button->SetText(strText);
 				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
 				button->SetFixedWidth(nWidth);
@@ -366,11 +376,19 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 			{
 				wchar_t* strText = L"Show Chat";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_chat.png"), nImageRight);
 			}
 			else if(Button_Muted == btnStatus)
 			{
 				wchar_t* strText = L"Hide Chat";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_chat.png"), nImageRight);
 			}
 		}
 		break;
@@ -392,13 +410,22 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 		{
 			if(Button_UnMuted == btnStatus)
 			{
-				wchar_t* strText = L"Show Gallery";
+				wchar_t* strText = L"See Everyone";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_participants.png"), nImageRight);
 			}
 			else if(Button_Muted == btnStatus)
 			{
-				wchar_t* strText = L"Hide Gallery";
+				wchar_t* strText = L"Show Only Speaker";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_speaker_only.png"), nImageRight);
+				//TODO: change this image file
 			}
 		}
 		break;
@@ -406,18 +433,49 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 		{
 			if(Button_UnMuted == btnStatus)
 			{
-				wchar_t* strText = L"Share";
+				wchar_t* strText = L"Share Your Screen";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_shareScreen.png"), nImageRight);
 			}
 			else if(Button_Muted == btnStatus)
 			{
-				wchar_t* strText = L"Stop Share";
+				wchar_t* strText = L"Stop Sharing";
 				button->SetText(strText);
+				int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+				button->SetFixedWidth(nWidth);
+				int nImageRight = 0;
+				UpdateButtonImage((void*)button, _T("toolbar_btn_shareScreen.png"), nImageRight);
 			}
 		}
 		break;
 	case Toolbar_Button_Leave:
+	{
+		/*wchar_t* strText = L"Leave Call";
+		button->SetText(strText);*/
+
+		int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
+		button->SetFixedWidth(nWidth);
+		int nImageRight = 0;
+		int nImageWidth = DEFAULT_IMAGE_WIDTH;
+		wchar_t* strImage = _T("toolbar_btn_leaveMeeting.png");
+
+		wchar_t strDest[128] = { 0 };
+		int nLeft = (nWidth - nImageWidth) / 2;
+		nImageRight = nLeft + (int)(nImageWidth * 1.5);
+		wsprintf(strDest, _T("dest='%d,4,%d,81'"), nLeft, nImageRight);
+
+		wchar_t strImagePath[128] = { 0 };
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='0,0,%d,60' %s", strImage, nImageWidth, strDest);
+		button->SetForeImage(strImagePath);
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth, nImageWidth * 2, strDest);
+		button->SetHotForeImage(strImagePath);
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth * 2, nImageWidth * 3, strDest);
+		button->SetPushedImage(strImagePath);
 		break;
+	}
 	default:
 		break;
 	}
