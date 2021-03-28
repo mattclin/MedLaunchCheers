@@ -1,53 +1,126 @@
 ﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  stdafx.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
-cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  ViewOptionsWindow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\ViewOptionsWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
   util_window.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   user_manager.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   toolbar_manager.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   toolbar_bottom_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   toolbar_bottom_ui.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  ShareToolbarWindow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\ShareToolbarWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
-  SETTINGS_virtualBG_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_video_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_ui_custom_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   settings_ui.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_share_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_recording_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_general_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_feature_custom_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  SETTINGS_audio_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   sdk_util.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   sdk_init_auth_ui.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   sdk_demo_v2.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   sdk_demo_app.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  schedule_meeting_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  schedule_meeting_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  participant_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  more_menu_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\more_menu_ui.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  more_features_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  more_features_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  mess_info.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  invitation_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  invitation_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  init_auth_sdk_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   Generating Code...
   Compiling...
-  schedule_meeting_workflow.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  schedule_meeting_ui.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
-  participant_ui.cpp
-C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  display_cc_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\display_cc_ui.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  custom_ui_video_mgr.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  custom_ui_video_flow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  custom_ui_share_mgr.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  custom_ui_share_flow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  custom_ui_mgr_flow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  custom_ui_mgr.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  close_caption_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  close_caption_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\close_caption_ui.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  chat_controller_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  chat_controller_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  arrow_window.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  ViewOptionsWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\ViewOptionsWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  ShareToolbarWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\ShareToolbarWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  SETTINGS_virtualBG_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_video_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_ui_custom_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_share_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_recording_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_general_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  Generating Code...
+  Compiling...
+  SETTINGS_feature_custom_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_audio_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
   ParticipantPopMenu.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LoggedIn_sdk_controller_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LoggedIn_sdk_controller_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LOGIN_sdk_login_UI.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LOGIN_restapi_without_login_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LOGIN_login_with_sso_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LOGIN_login_with_email_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  LOGIN_join_meeting_only_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  Join_meeting_for_login_user_workflow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  Join_meeting_for_login_user_ui.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  CustomizedUIRecordMgr.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  CameraControlWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\CameraControlWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateStampWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateStampWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateSpolightWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateSpolightWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateFormatWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateFormatWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateDrawWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateDrawWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateClearWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateClearWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  AnnotateBarWindow.cpp
+E:\MedLaunch\Cheers\CheersApp\CheersApp\AnnotateBarWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  Generating Code...

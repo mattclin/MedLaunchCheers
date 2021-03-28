@@ -63,9 +63,9 @@
 	<Control width="60"/>
 		<Button name="btn_leavemeeting"  padding="0,0,0,0" height="90" width="180" 
 			focuscolor="#21984901" focuspadding="2,2,2,2" textpadding="4,63,4,0" textalign="center"
-			foreimage="res='toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='0,0,60,60' dest='30,4,50,54'" 
-			hotforeimage="res=toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='60,0,120,60' dest='30,4,50,54'" 
-			pushedforeimage="res='toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='120,0,180,60' dest='30,4,50,54'" />
+			foreimage="res='toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='0,0,81,81' dest='30,4,50,54'" 
+			hotforeimage="res=toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='81,0,162,81' dest='30,4,50,54'" 
+			pushedforeimage="res='toolbar_btn_leaveMeeting.png' restype='ZPIMGRES' source='162,0,243,81' dest='30,4,50,54'" />
 	<Control />
 </HorizontalLayout>
 </Window>

@@ -65,11 +65,11 @@ void CToolbarBottom::InitWindow()
 			m_btnLeave->SetText(L"Leave Meeting");
 	}*/
 	UpdateButton(Toolbar_Button_Leave, Button_UnMuted);
-	m_btnMore = static_cast<CButtonUI* >(m_PaintManager.FindControl(L"btn_more"));
+	/*m_btnMore = static_cast<CButtonUI* >(m_PaintManager.FindControl(L"btn_more"));
 	if (m_btnMore)
 	{
 		m_btnMore->SetText(L"More");
-	}
+	}*/
 
 	m_ToolbarBottomWorkFlow.SetUIEvent(this);
 }
@@ -459,20 +459,20 @@ void CToolbarBottom::UpdateButton(ToolbarButtonType btnNeedUpdate, buttonStatusT
 		int nWidth = max(button->GetFixedWidth(), button->GetMinWidth());
 		button->SetFixedWidth(nWidth);
 		int nImageRight = 0;
-		int nImageWidth = DEFAULT_IMAGE_WIDTH;
+		int nImageWidth = 81;
 		wchar_t* strImage = _T("toolbar_btn_leaveMeeting.png");
 
 		wchar_t strDest[128] = { 0 };
 		int nLeft = (nWidth - nImageWidth) / 2;
-		nImageRight = nLeft + (int)(nImageWidth * 1.5);
+		nImageRight = nLeft + (int)(nImageWidth);
 		wsprintf(strDest, _T("dest='%d,4,%d,81'"), nLeft, nImageRight);
 
 		wchar_t strImagePath[128] = { 0 };
-		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='0,0,%d,60' %s", strImage, nImageWidth, strDest);
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='0,0,%d,81' %s", strImage, nImageWidth, strDest);
 		button->SetForeImage(strImagePath);
-		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth, nImageWidth * 2, strDest);
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,81' %s", strImage, nImageWidth, nImageWidth * 2, strDest);
 		button->SetHotForeImage(strImagePath);
-		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,60' %s", strImage, nImageWidth * 2, nImageWidth * 3, strDest);
+		wsprintf(strImagePath, L"res='%s' restype='ZPIMGRES' source='%d,0,%d,81' %s", strImage, nImageWidth * 2, nImageWidth * 3, strDest);
 		button->SetPushedImage(strImagePath);
 		break;
 	}
