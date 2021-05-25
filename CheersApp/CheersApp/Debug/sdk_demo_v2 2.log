@@ -1,0 +1,53 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ViewOptionsWindow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\ViewOptionsWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  util_window.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  user_manager.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  toolbar_manager.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  toolbar_bottom_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  toolbar_bottom_ui.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  ShareToolbarWindow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\ShareToolbarWindow.h(3,10): fatal error C1083: Cannot open include file: 'UIlib.h': No such file or directory
+  SETTINGS_virtualBG_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_video_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_ui_custom_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  settings_ui.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_share_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_recording_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_general_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_feature_custom_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  SETTINGS_audio_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  sdk_util.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  sdk_init_auth_ui.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  sdk_demo_v2.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  sdk_demo_app.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  Generating Code...
+  Compiling...
+  schedule_meeting_workflow.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  schedule_meeting_ui.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  participant_ui.cpp
+C:\Users\matth\Downloads\zoom-sdk-windows-5.4.54802.0124\zoom-sdk-windows-5.4.54802.0124\demo\sdk_demo_v2\sdk_util.h(3,10): fatal error C1083: Cannot open include file: 'zoom_sdk.h': No such file or directory
+  ParticipantPopMenu.cpp
